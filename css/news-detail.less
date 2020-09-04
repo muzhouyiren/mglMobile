@@ -1,0 +1,92 @@
+.news-detail-content {
+    padding: 2.773333rem .4rem 1.6rem;
+    color: #333333;
+    .detail-top {
+        a {
+            position: relative;
+            display: block;
+            width: .933333rem;
+            height: .373333rem;
+            font-size: .373333rem;
+            color: #666666;
+            line-height: .373333rem;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: .026667rem;
+                right: -0.2rem;
+                width: .293333rem;
+                height: .293333rem;
+                background: url(../images/recruitment_detail/icon-down.png);
+                background-size: cover;
+                transform: rotate(-90deg);
+            }
+        }
+        .share {
+            display: flex;
+            flex-wrap: row nowrap;
+            align-items: center;
+            padding: .533333rem 0 1.066667rem;
+            font-size: .373333rem;
+            color: #666666;
+            line-height: .373333rem;
+            ul {
+                margin-left: .853333rem;
+                li {
+                    float: left;
+                    width: .626667rem;
+                    height: .626667rem;
+                    border-radius: 50%;
+                    margin-right: .533333rem;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+    .news-cont {
+        .title {
+            font-size:.48rem;
+            font-weight:500;
+            line-height:.48rem;
+        }
+        .date {
+            margin: .44rem 0 .853333rem;
+            font-size:.373333rem;
+            color:#666666;
+            line-height:.373333rem;
+        }
+        .con {
+            font-size:.4rem;
+            p {
+                text-indent: 2em;
+                line-height:.746667rem;
+            }
+            img {
+                width: 100%;
+                margin: .533333rem 0;
+            }
+        }
+        
+    }
+    .other {
+        margin-top: .533333rem;
+        padding: .64rem 0 0;
+        border-top: .013333rem solid #979797;
+        li {
+            a{
+                display: block;
+                font-size:.373333rem;
+                color:#333333;
+                line-height:.533333rem;
+            }
+            &,prev {
+                margin-bottom: .533333rem;
+            }
+        }
+    }
+}

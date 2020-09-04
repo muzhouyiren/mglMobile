@@ -1,0 +1,145 @@
+.recruitment-content {
+  text-align: center;
+  background: #F5F5F5;
+}
+.recruitment-content .section {
+  padding: 1.066667rem 0.4rem 1.173333rem;
+  height: 10.08rem;
+}
+.recruitment-content .section .title-des {
+  font-size: 0.373333rem;
+  color: #666666;
+  line-height: 0.64rem;
+  margin-top: 0.32rem;
+}
+.recruitment-content .section .img {
+  width: 5.04rem;
+  height: 4.426667rem;
+  margin: 0.693333rem auto 0;
+}
+.recruitment-content .section2 .img {
+  width: 100%;
+  height: 5.706667rem;
+  margin-top: 0.8rem;
+}
+.recruitment-content .swiper-section {
+  height: 7.946667rem;
+  background: #fff;
+  padding-top: 1.066667rem;
+}
+.recruitment-content .swiper-section .sec-title {
+  margin-bottom: 0.64rem;
+}
+.recruitment-content .swiper-section .swiper-staff {
+  position: relative;
+}
+.recruitment-content .swiper-section .swiper-staff .swiper-slide {
+  width: 6.4rem !important;
+  height: 3.84rem;
+  transform: scale(0.9);
+  background-color: #000;
+  transition: transform 0.3s;
+}
+.recruitment-content .swiper-section .swiper-staff .swiper-slide img {
+  transition: opacity 0.3s;
+}
+.recruitment-content .swiper-section .swiper-staff .swiper-pagination {
+  bottom: -1.333333rem;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+.recruitment-content .swiper-section .swiper-staff .swiper-pagination span {
+  width: 0.133333rem;
+  height: 0.133333rem;
+  background: #CCCCCC;
+  border: 0.026667rem solid transparent;
+  opacity: 1;
+  transition: all 0.3s;
+  vertical-align: middle;
+  margin: 0 0.133333rem;
+}
+.recruitment-content .swiper-section .swiper-staff .swiper-pagination .swiper-pagination-bullet-active {
+  width: 0.213333rem;
+  height: 0.213333rem;
+  background: #ffffff;
+  border: 0.026667rem solid #00C6C9;
+}
+.recruitment-content .section-lis {
+  height: auto;
+  padding-bottom: 0;
+}
+.recruitment-content .section-lis .ul_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.826667rem;
+}
+.recruitment-content .section-lis .ul_list li {
+  text-align: center;
+  flex: 0 0 33.33%;
+  margin-bottom: 1.106667rem;
+}
+.recruitment-content .section-lis .ul_list li img {
+  display: block;
+  width: 1.066667rem;
+  height: 1.066667rem;
+  margin: 0 auto 0.32rem;
+}
+.recruitment-content .section-lis .ul_list li span {
+  display: block;
+  line-height: 0.373333rem;
+  font-size: 0.373333rem;
+  color: #333333;
+}
+.recruitment-content .section-jobs {
+  height: 9.373333rem;
+  background: #fff;
+}
+.recruitment-content .section-jobs .ul_list li {
+  flex: 0 0 25%;
+  margin-bottom: 1.04rem;
+}
+.recruitment-content .section-jobs .more {
+  margin: 0 auto;
+  display: block;
+  width: 2.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.373333rem;
+  color: #00C9C7;
+  border: 1px solid;
+  border-image: linear-gradient(134deg, #00a6e5, #00d8bb) 1 1;
+}
+.recruitment-content .office-swiper {
+  height: 6.4rem;
+  margin-top: 0.64rem;
+}
+.recruitment-content .office-swiper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.recruitment-content .section-last {
+  height: 6.4rem;
+  padding-top: 1.44rem;
+}
+.recruitment-content .section-last .sec-title {
+  color: #fff;
+  margin-bottom: 0.32rem;
+}
+.recruitment-content .section-last .title-des {
+  color: #fff;
+  margin-bottom: 0.64rem;
+}
+.recruitment-content .section-last .sign-up {
+  margin: 0 auto;
+  display: block;
+  width: 2.346667rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 0.373333rem;
+  color: #fff;
+}

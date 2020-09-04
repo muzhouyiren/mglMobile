@@ -1,0 +1,137 @@
+.service-content {
+  text-align: left;
+  background: #F5F5F5;
+}
+.service-content .des-info .des {
+  width: 7.733333rem;
+}
+.service-content .section {
+  padding: 0 0.4rem 1.173333rem;
+  height: 11.586667rem;
+}
+.service-content .section .sec-title {
+  padding-top: 1.066667rem;
+}
+.service-content .section .title-des {
+  font-size: 0.373333rem;
+  color: #666666;
+  line-height: 0.64rem;
+  margin-top: 0.426667rem;
+}
+.service-content .section-lis {
+  height: auto;
+  padding-bottom: 0;
+}
+.service-content .section-lis .ul_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0.826667rem;
+}
+.service-content .section-lis .ul_list li {
+  text-align: center;
+  margin-bottom: 1.106667rem;
+  width: 25%;
+}
+.service-content .section-lis .ul_list li img {
+  display: block;
+  width: 1.226667rem;
+  height: 1.226667rem;
+  margin: 0 auto 0.44rem;
+}
+.service-content .section-lis .ul_list li span {
+  display: block;
+  line-height: 0.373333rem;
+  font-size: 0.373333rem;
+  color: #333333;
+}
+.service-content .section-concept,
+.service-content .section-network {
+  height: 6.4rem;
+}
+.service-content .section-concept .sec-title,
+.service-content .section-network .sec-title {
+  color: #fff;
+}
+.service-content .section-concept .title-des,
+.service-content .section-network .title-des {
+  color: #fff;
+}
+.service-content .section-network {
+  height: 17.44rem;
+  background: #121935;
+  margin-top: -0.013333rem;
+}
+.service-content .section-network .ul_list {
+  color: #fff;
+}
+.service-content .section-network .ul_list li p {
+  margin-bottom: 0.426667rem;
+  font-size: 1.066667rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  line-height: 1.066667rem;
+}
+.service-content .section-network .ul_list li span {
+  font-size: 0.373333rem;
+  line-height: 0.373333rem;
+  color: #fff;
+}
+.service-content .section-network .img {
+  width: 100%;
+  height: 7.48rem;
+}
+.service-content .security-section {
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #fff;
+  height: 11.466667rem;
+  display: flex;
+}
+.service-content .security-section span {
+  display: inline-block;
+  margin-top: 0.32rem;
+}
+.service-content .security-section p {
+  line-height: 0.64rem;
+}
+.service-content .security-section p span {
+  font-size: 1.066667rem;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  line-height: 1.066667rem;
+}
+.service-content .security-section .left {
+  padding: 1.066667rem 1.133333rem 1.066667rem 0.4rem;
+  width: 6.133333rem;
+  height: 11.466667rem;
+  background: url(../images/service/bg-left.png) no-repeat 100% 100% / cover;
+}
+.service-content .security-section .left h3 {
+  font-size: 0.533333rem;
+  font-weight: 600;
+  line-height: 0.906667rem;
+}
+.service-content .security-section .left .city {
+  margin-top: 0.32rem;
+  margin-left: 0.56rem;
+}
+.service-content .security-section .left .des {
+  margin: 0.426667rem 0 0.853333rem;
+  line-height: 0.64rem;
+}
+.service-content .security-section .right {
+  height: 11.466667rem;
+}
+.service-content .security-section .right .top,
+.service-content .security-section .right .bottom {
+  width: 3.866667rem;
+  height: 5.73333rem;
+  height: 50%;
+  padding: 1.066667rem 0 0 0.4rem;
+  background: url(../images/service/bg-right.png) no-repeat 100% 100% / cover;
+}
+.service-content .security-section .right .bottom {
+  padding-left: 0.533333rem;
+}

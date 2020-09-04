@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>新闻资讯</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/animate.css-master/animate.css">
+    <link rel="stylesheet" href="./libs/swiper-5.2.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/news-detail.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="news-detail-content">
+        <div class="detail-top">
+            <a href="news.html" class="wow fadeInUp">返回</a>
+            <div class="share wow fadeInUp">
+                <p>分享至</p>
+                <ul class="clearfix">
+                    <li>
+                        <img src="./images/common/icon-menu.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/common/icon-menu.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/common/icon-menu.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./images/common/icon-menu.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="news-cont">
+            <p class="title ellipsis wow fadeInUp" data-wow-delay="0.3s">专注于新能源汽车锂电子动力...</p>
+            <p class="date wow fadeInUp" data-wow-delay="0.6s">2019-09-06</p>
+            <div class="con wow fadeIn" data-wow-delay="0.9s">
+                <p>2019年12月12日，天津市副市长连茂君在天津迎宾馆会见荣盛集团董事长耿建明及荣盛盟固利公司董事长冯全玉一行，双方就荣盛盟固利在天津发展相关事宜进行了沟通交流。天津市政府副秘书长杨明远、宝坻区区长毛劲松等同志参加会谈。
+                </p>
+                <img src="./images/news/img-01.png" alt="">
+                <p>耿建明首先介绍了荣盛集团和旗下在津项目建设情况，并对天津市委市政府给予的支持和帮助表示诚挚感谢。随后，冯全玉向市领导介绍了荣盛盟固利公司产品的技术特点与优势及在津投资项目情况。荣盛盟固利规划总投资约70亿元，在天津市宝坻区打造年产能不低于15GWh的锂离子动力电池产业园。目前，在天津市政府的大力支持和帮助下，一期项目已经顺利建成投产；二期项目已开工建设，计划明年投产；三期项目正在筹划中，择机启动。冯全玉表示，荣盛集团将继续加快投资进度和产能建设。
+                </p>
+            </div>
+        </div>
+        <div class="other wow fadeInUp">
+            <ul>
+                <li class="prev">
+                    <a class="ellipsis" href="javascript:;">上一篇：国际一流的新能源汽车动力…</a>
+                </li>
+                <li class="next">
+                    <a class="ellipsis" href="javascript:;">下一篇：荣盛盟固利规划总投资…</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <!-- 引入我们的flexible.js 文件 -->
+    <!-- <script src="./libs/jquery.min.js"></script> -->
+    <script src="./libs/jquery-1.8.3.min.js"></script>
+    <script src="./libs/flexible.min.js"></script>
+    <script src="./libs/swiper-5.2.0/js/swiper.min.js"></script>
+    <script src="./libs/WOW-master/wow.js"></script>
+    <script src="./js/common.js"></script>
+    <script>
+        //news-swiper
+        var mySwiper = new Swiper('.news-swiper', {
+            speed: 800,
+            slidesPerView: 1,
+            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000,//1秒切换一次
+            },
+        });
+    </script>
+</body>
+
+</html>

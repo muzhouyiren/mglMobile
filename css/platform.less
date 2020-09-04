@@ -1,0 +1,180 @@
+.platform-content {
+    .sec-banner {
+        height: 6.4rem;
+
+        .des {
+            width: 8.533333rem;
+        }
+    }
+
+    // 公司现有产能
+    .section {
+        // padding: 1.6rem .4rem 0;
+        width: 100%;
+        padding-top: 1.066667rem; //80
+        padding-bottom: 1.066667rem; //80
+        color: #333333;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .title {
+            height: .533333rem;
+            line-height: .533333rem;
+            font-size: .533333rem;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            // color: #333333;
+
+        }
+
+        .des {
+            /* width:690px; */
+            /* height:1.28rem; */
+            margin: .32rem 0 .64rem;
+            font-size: .373333rem;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            // color: #333333;
+            line-height: .64rem;
+        }
+
+        .list {
+            margin-top: .853333rem;
+
+            li~li {
+                margin-top: .64rem;
+            }
+
+            .tit {
+                font-size: .373333rem;
+                color: #333333;
+                line-height: .373333rem;
+
+                strong {
+                    font-size: .8rem;
+                    font-family: DINAlternate-Bold, DINAlternate;
+                    font-weight: bold;
+                    line-height: .8rem;
+                    margin: 0 .266667rem;
+                }
+            }
+
+            .line {
+                width: 100%;
+                height: .16rem;
+                margin-top: .266667rem;
+                background: rgba(232, 232, 232, 1);
+
+                .rate {
+                    display: block;
+                    height: 100%;
+                    background: linear-gradient(120deg, #009FEA, #00E1B3);
+                    transition: all 1s;
+                    width: 0%;
+                }
+            }
+        }
+    }
+
+    // 先进的产线制造能力
+    .section1 {
+        height: 13.266667rem;
+        color: #fff;
+        background: linear-gradient(112deg, rgba(0, 159, 234, 1) 0%, rgba(0, 225, 179, 1) 100%);
+
+        .des {
+            margin: .413333rem 0 1.253333rem;
+        }
+
+        .img {
+            width: 100%;
+            height: 7.44rem;
+        }
+    }
+
+    .tab-btns {
+        display: flex;
+        text-align: center;
+        width: 4.693333rem;
+        margin: .68rem auto 1.066667rem; //51*80
+
+        a {
+            display: block;
+            width: 2.346667rem;
+            height: .8rem;
+            line-height: .8rem;
+            text-align: center;
+            border: .013333rem solid #dddddd;
+            font-size: .373333rem;
+            color: #999999;
+
+            &.active {
+                color: #fff;
+                background: linear-gradient(127deg, rgba(0, 159, 234, 1) 0%, rgba(0, 225, 179, 1) 100%);
+            }
+        }
+
+        a:last-child {
+            border-left: none;
+        }
+
+        a:first-child {
+            border-right: none;
+        }
+
+    }
+
+    .swiper {
+        position: relative;
+        margin-top: .853333rem;
+        margin-bottom: 1.066667rem; //80px
+        .swiper-slide {
+            width: 6.4rem!important; //480
+            height: 3.84rem; //288px
+            width: 4.8rem;//360px
+            // height: 2.88rem;//216px
+            transform: scale(.85);
+            background-color: #000;
+            transition: transform 0.3s;
+            img {
+                transition: opacity 0.3s;
+                opacity: 0.5;
+            }
+        }
+        .swiper-slide-active {
+            transform: scale(1);
+            width: 6.4rem!important; //480
+            // height: 3.84rem; //288px
+            img {
+                opacity: 1;
+            }
+        }
+
+        // .swiper-container {
+        //     padding-bottom: .8rem;//60
+        // }
+
+        .swiper-pagination {
+            bottom: -1.333333rem;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+            span {
+                width: .133333rem; //10px
+                height: .133333rem; //10px
+                background: #CCCCCC;
+                border: .026667rem solid transparent;
+                opacity: 1;
+                transition: all 0.3s;
+                vertical-align: middle;
+                margin:  0 .133333rem; //10px
+            }
+
+            .swiper-pagination-bullet-active {
+                width: .213333rem; //16px
+                height: .213333rem;//16px
+                background: rgba(255, 255, 255, 1);
+                border: .026667rem solid #00C6C9;
+            }
+        }
+    }
+}

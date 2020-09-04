@@ -1,0 +1,467 @@
+.results-content {
+    .sec-banner {
+        .des {
+            width: 7.733333rem; //580px
+        }
+    }
+
+    // 轮播1
+    .section-block {
+        position: relative;
+        height: 6.693333rem;
+
+        .slide-cont {
+            padding: .733333rem 1.066667rem 2.4rem;
+            text-align: center;
+
+            img {
+                display: block;
+                margin: 0 auto .693333rem; //52px
+                width: 1.253333rem; //94px
+                height: 1.306667rem; //98px
+            }
+
+            p {
+                font-size: .373333rem; //28px
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                line-height: .746667rem; //56px
+            }
+        }
+
+        // 轮播分页小点样式
+        .swiper-pagination {
+            // bottom: 1.066667rem;
+            bottom: .8rem;
+            left: 50%;
+            transform: translate3d(-50%, 0, 0);
+
+            span {
+                width: .133333rem; //10px
+                height: .133333rem; //10px
+                background: #CCCCCC;
+                border: .026667rem solid transparent;
+                opacity: 1;
+                transition: all 0.3s;
+                vertical-align: middle;
+                margin: 0 .133333rem; //10px
+            }
+
+            .swiper-pagination-bullet-active {
+                width: .213333rem; //16px
+                height: .213333rem; //16px
+                background: #ffffff;
+                border: .026667rem solid #00C6C9;
+            }
+        }
+
+    }
+
+    .results-list {
+        ul {
+            li {
+                &.cur {
+                    .first-list {
+                        .first-list-cont {
+                            border: none;
+                            img {
+                                transform: rotate(90deg);
+                            }
+                        }
+                    }
+                }
+                &:last-child {
+                    .first-list {
+                        .first-list-cont {
+                            border: none;
+                        }
+                    }
+                }
+
+                .first-list {
+                    box-sizing: content-box;
+                    height: 1.266667rem;
+                    background: linear-gradient(124deg, rgba(0, 159, 234, 1) 0%, rgba(0, 225, 179, 1) 100%);
+                    padding-bottom: .013333rem;
+                    .first-list-cont {
+                        margin: 0 .4rem;
+                        // padding: .426667rem 0;
+                        height: 1.266667rem;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-bottom: .013333rem solid #FFFFFF;
+
+                        .title {
+                            font-size: .4rem; //30px
+                            font-family: PingFangSC-Regular, PingFang SC;
+                            font-weight: 400;
+                            color: rgba(255, 255, 255, 1);
+                            line-height: .4rem;
+                        }
+
+                        img {
+                            transition: all .3s;
+                            width: .413333rem;
+                            height: .413333rem;
+                        }
+                    }
+
+                    &.active {
+                        .first-list-cont {
+                            border: none;
+                            img {
+                                transform: rotate(90deg);
+                            }
+                        }
+                    }
+
+                }
+
+                
+                .sec-list {
+                    display: none;
+                    .section1 {
+                        height: 6.413333rem; //481px
+                        padding: 1.066667rem .4rem 0;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+
+                        .title {
+                            margin-bottom: .426667rem;
+                            font-size: .533333rem; //40px
+                            font-family: PingFangSC-Semibold, PingFang SC;
+                            font-weight: 600;
+                            color: #fff;
+                            line-height: .533333rem;
+                        }
+
+                        .des {
+                            font-size: .373333rem;
+                            font-family: PingFangSC-Regular, PingFang SC;
+                            font-weight: 400;
+                            color: #fff;
+                            line-height: .64rem;
+                        }
+
+                        span {
+                            display: block;
+                            margin-top: .266667rem;
+                        }
+                    }
+
+                    .section2 {
+                        max-height: 32.493333rem;
+                        padding-bottom: 1.013333rem; //76px
+                        font-family: PingFangSC-Semibold, PingFang SC;
+                        color: #fff;
+                        background: linear-gradient(124deg, rgba(0, 159, 234, 1) 0%, rgba(0, 225, 179, 1) 100%);
+
+                        // 标题
+                        .title {
+                            padding-top: 1.066667rem;
+                            font-size: .533333rem;
+                            font-family: PingFangSC-Semibold, PingFang SC;
+                            font-weight: 600;
+                            color: #fff;
+                            line-height: .533333rem;
+                        }
+
+                        .des {
+                            margin: .32rem 0 .933333rem;
+                            font-size: .373333rem;
+                            line-height: .746667rem;
+                        }
+
+                        .info {
+                            margin: .546667rem 0 .76rem;
+                            font-size: .373333rem;
+
+                            p {
+                                margin-top: .266667rem;
+                                line-height: .64rem;
+                            }
+                        }
+
+                        // swiper
+                        .section2-swiper {
+                            height: 6.933333rem;
+                            position: relative;
+
+                            .slide-cont {
+                                padding: .733333rem 1.266667rem;
+
+                                // padding: 1.066667rem 1.266667rem;//80*95
+                                text-align: center;
+                                color: #fff;
+
+                                img {
+                                    display: block;
+                                    margin: 0 auto .586667rem;
+                                    width: 1.6rem; //120px
+                                    height: 1.6rem;
+                                }
+
+                                h3 {
+                                    margin-bottom: .64rem;
+                                    font-size: .48rem;
+                                    font-weight: 600;
+                                    line-height: .48rem;
+                                }
+
+                                p {
+                                    font-size: .373333rem;
+                                    line-height: .746667rem;
+                                }
+                            }
+
+                            // // 轮播分页小点样式
+                            // .swiper-pagination {
+                            //     bottom: 0;
+                            //     left: 50%;
+                            //     transform: translate3d(-50%, 0, 0);
+
+                            //     span {
+                            //         width: .266667rem; //20px
+                            //         height: .266667rem; //20px
+                            //         background: transparent;
+                            //         border: .013333rem solid #fff;
+                            //         opacity: 1;
+                            //         transition: all 0.3s;
+                            //         vertical-align: middle;
+                            //         margin: 0 .133333rem; //10px
+                            //     }
+
+                            //     .swiper-pagination-bullet-active {
+                            //         background: #ffffff;
+                            //         // border: .026667rem solid #00C6C9;
+                            //     }
+                            // }
+                        }
+
+                        // 小标题
+                        .headings {
+                            text-align: center;
+                            margin: 1rem 0 .746667rem;
+                            font-size: .4rem;
+                            font-weight: 600;
+                            line-height: .4rem;
+                        }
+
+                        .img {
+                            // width: 100%;
+                            padding: 0 .266667rem;
+
+                            img {
+                                width: 100%;
+                                display: block;
+                            }
+                        }
+                    }
+
+                    // 轮播分页小点样式
+                    .swiper-pagination {
+                        bottom: 0;
+                        left: 50%;
+                        transform: translate3d(-50%, 0, 0);
+
+                        span {
+                            width: .266667rem; //20px
+                            height: .266667rem; //20px
+                            background: transparent;
+                            border: .013333rem solid #fff;
+                            opacity: 1;
+                            transition: all 0.3s;
+                            vertical-align: middle;
+                            margin: 0 .133333rem; //10px
+                        }
+
+                        .swiper-pagination-bullet-active {
+                            background: #ffffff;
+                            // border: .026667rem solid #00C6C9;
+                        }
+                    }
+
+                    .section3 {
+                        background: #0A1544;
+                    }
+
+                    // 安全性
+                    .security {
+                        width: 100%;
+                        height: 10.466667rem; //785px
+                        background-image: url(../images/results/bg-04.png);
+
+                        .info {
+                            font-size: .373333rem;
+
+                            p {
+                                line-height: .64rem;
+                                color: #fff;
+                            }
+
+                            p~p {
+                                margin-top: .24rem;
+                            }
+                        }
+                    }
+
+                    // swiper 可靠性
+                    .li3-swiper {
+                        position: relative;
+                        height: 7.786667rem; //584px
+                        background-image: url(../images/results/bg-05.png);
+
+                        .slide-cont {
+                            padding: 1.04rem .4rem 2.4rem;
+                            text-align: center;
+                            color: #fff;
+
+                            img {
+                                display: block;
+                                margin: 0 auto .613333rem;
+                                width: 1.333333rem;
+                                height: 1.333333rem;
+                            }
+
+                            h3 {
+                                margin-bottom: .426667rem;
+                                font-size: .48rem;
+                                font-weight: 600;
+                                line-height: .48rem;
+                            }
+
+                            p {
+                                font-size: .373333rem;
+                                line-height: .746667rem;
+                            }
+                        }
+
+                        .swiper-pagination {
+                            width: 100%;
+                            bottom: .8rem;
+                        }
+                    }
+
+                    // 锰酸锂Pack组件模拟仿真
+                    .pack-swiper {
+                        height: 10.186667rem; //764px
+
+                        background-image: url(../images/results/bg-06.png);
+
+                        .slide-cont {
+                            padding: 1.066667rem .4rem 0.8rem;
+                            text-align: left;
+
+                            p~p {
+                                margin-top: .24rem;
+                            }
+                        }
+                    }
+
+                    // 安全性检测
+                    .test-swiper{
+                        height: 10.106667rem; //758px
+                        background-image: url(../images/results/bg-09.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        .slide-cont {
+                            text-align: left;
+                            .img-info {
+                                margin-top: 1.066667rem;
+                                text-align: center;
+                                img {
+                                    display: block;
+                                    margin: 0 auto .613333rem;
+                                    width: 1.333333rem;
+                                    height: 1.333333rem;
+                                }
+    
+                                p {
+                                    // margin-bottom: .426667rem;
+                                    font-size: .48rem;
+                                    font-weight: 600;
+                                    line-height: .48rem;
+                                    font-family:PingFangSC-Semibold,PingFang SC;
+                                }
+                            }
+                            
+
+                        }
+                    }
+
+                    // 先进性
+                    .advanced {
+                        height: 14.053333rem;
+                        background-image: url(../images/results/bg-07.png);
+                    }
+
+                    // BMS领域轮播
+                    .li4-swiper {
+                        height: 8.493333rem; //637px
+                        background-image: url(../images/results/bg-08.png);
+                    }
+
+                    .bms-cont {
+                        padding: 1.066667rem .4rem;
+                        background: linear-gradient(124deg, rgba(0, 159, 234, 1) 0%, rgba(0, 225, 179, 1) 100%);
+
+                        .bms-title {
+                            margin-bottom: .106667rem;
+                            font-size: .48rem;
+                            font-weight: 600;
+                            color: rgba(255, 255, 255, 1);
+                            line-height: .48rem;
+                        }
+
+                        ul {
+                            li {
+                                padding: .533333rem 0 .426667rem;
+                                border-bottom: .013333rem solid #FFFFFF;
+                                .tit {
+                                    margin-bottom: .373333rem; //28
+                                    font-size: .426667rem;
+                                    font-family: PingFangSC-Semibold, PingFang SC;
+                                    font-weight: 600;
+                                    color: rgba(255, 255, 255, 1);
+                                    line-height: .426667rem;
+                                }
+
+                                .li-cont {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+
+                                    .txt {
+                                        width: 5.333333rem; //400px
+                                        font-size: .32rem;
+                                        font-family: PingFangSC-Regular, PingFang SC;
+                                        font-weight: 400;
+                                        color: rgba(255, 255, 255, 1);
+                                        line-height: .64rem;
+                                    }
+                                    img {
+                                        width: 1.28rem; //96*96
+                                        height: 1.28rem;
+                                    }
+                                    .wh-100 {
+                                        width: 1.333333rem;
+                                        height: 1.333333rem;
+                                    }
+                                    .wh-91-83 {
+                                        width: 1.213333rem;
+                                        height: 1.106667rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

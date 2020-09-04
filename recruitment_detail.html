@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>人才招聘详情页</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/animate.css-master/animate.css">
+    <link rel="stylesheet" href="./libs/swiper-5.2.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/recruitment_detail.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="recruit-detail-content">
+        <div class="recruit-detail-top">
+            <a href="recruitment.html" class="wow fadeInUp">返回</a>
+            <h3 class="wow fadeInUp">寻找你的职业新起点</h3>
+        </div>
+        <div class="tab-btns wow fadeInUp">
+            <!-- <a href="recruitment_detail.html" class="btns_shezhao on">社会招聘</a>
+            <a href="recruitment_detail_school.html" class="btns_school">校园招聘</a> -->
+            <a href="javascript:;" class="btns_shezhao active">社会招聘</a>
+            <a href="javascript:;" class="btns_school">校园招聘</a>
+        </div>
+        <!-- 搜索条件 -->
+        <div class="search-box">
+            <!-- 搜索框 -->
+            <div class="input_in wow fadeInUp">
+                <input type="text" placeholder="请输入岗位名称" />
+                <img src="./images/recruitment_detail/icon-search.png" />
+            </div>
+            <div class="select-box">
+                <!-- 工作地点 -->
+                <div class="selectType">
+                    <div class="input_in">
+                        <input type="text" value="北京" readOnly="true" />
+                        <img src="./images/recruitment_detail/icon-down.png" />
+                    </div>
+                    <div class="city hide">
+                        <ul>
+                            <li>上海</li>
+                            <li>北京</li>
+                            <li>深圳</li>
+                            <li>广州</li>
+                            <li>厦门</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 岗位类型 -->
+                <div class="selectType">
+                    <div class="input_in">
+                        <input type="text" value="研发类" readOnly="true" />
+                        <img src="./images/recruitment_detail/icon-down.png" />
+                    </div>
+                    <div class="city hide">
+                        <ul>
+                            <li>研发类</li>
+                            <li>技术类</li>
+                            <li>管理类</li>
+                            <li>产品类</li>
+                            <li>运营类</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 学历 -->
+                <div class="selectType">
+                    <div class="input_in">
+                        <input type="text" value="本科" readOnly="true" />
+                        <img src="./images/recruitment_detail/icon-down.png" />
+                    </div>
+                    <div class="city hide">
+                        <ul>
+                            <li>专科</li>
+                            <li>本科</li>
+                            <li>硕士</li>
+                            <li>博士</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索结果 -->
+        <div class="result-list">
+            <ul>
+                <li class="wow fadeInUp">
+                    <div class="lis">
+                        <div class="li-top">
+                            <div class="left">
+                                <img src="./images/recruitment_detail/icon-hot.png" alt="">
+                                <p>模组工艺工程师</p>
+                            </div>
+                            <img class="down" src="images/recruitment_detail/icon-down.png" />
+                        </div>
+                        <p class="li-bottom">
+                            <span>技术类</span>
+                            <span>北京</span>
+                            <span>2019-09-06</span>
+                        </p>
+                    </div>
+                    <ul class="lis_child">
+                        <li>
+                            <h3>岗位职责：</h3>
+                            <p>1.推进运输调度管理系统开发与实施；</p>
+                            <p>2.运输调度管理系统持续优化；</p>
+                            <p>3.新系统功能上线培训和问题反馈跟进；</p>
+                            <p>4.供应商系统问题反馈跟进处理。</p>
+                        </li>
+                        <li>
+                            <h3>任职职责：</h3>
+                            <p>1.本科及以上学历，计算机/数学/物流专业优先；</p>
+                            <p>2.熟悉SAP/ERP系统和EXCEL和OFFICE等办公软件应用,逻辑清晰，学习能力强；</p>
+                            <p>3.2年以上制造/物流行业IT或系统解决方案的工作经验；</p>
+                            <p>4.抗压能力强，工作细心负责。</p>
+                        </li>
+                        <li>
+                            <h3>简历投递：</h3>
+                            <p>邮箱：mglhr@mgldl.com.cn</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="wow fadeInUp">
+                    <div class="lis">
+                        <div class="li-top">
+                            <div class="left">
+                                <img src="./images/recruitment_detail/icon-hot.png" alt="">
+                                <p>模组工艺工程师</p>
+                            </div>
+                            <img class="down" src="images/recruitment_detail/icon-down.png" />
+                        </div>
+                        <p class="li-bottom">
+                            <span>技术类</span>
+                            <span>北京</span>
+                            <span>2019-09-06</span>
+                        </p>
+                    </div>
+                    <ul class="lis_child">
+                        <li>
+                            <h3>岗位职责：</h3>
+                            <p>1.推进运输调度管理系统开发与实施；</p>
+                            <p>2.运输调度管理系统持续优化；</p>
+                            <p>3.新系统功能上线培训和问题反馈跟进；</p>
+                            <p>4.供应商系统问题反馈跟进处理。</p>
+                        </li>
+                        <li>
+                            <h3>任职职责：</h3>
+                            <p>1.本科及以上学历，计算机/数学/物流专业优先；</p>
+                            <p>2.熟悉SAP/ERP系统和EXCEL和OFFICE等办公软件应用,逻辑清晰，学习能力强；</p>
+                            <p>3.2年以上制造/物流行业IT或系统解决方案的工作经验；</p>
+                            <p>4.抗压能力强，工作细心负责。</p>
+                        </li>
+                        <li>
+                            <h3>简历投递：</h3>
+                            <p>邮箱：mglhr@mgldl.com.cn</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="wow fadeInUp">
+                    <div class="lis">
+                        <div class="li-top">
+                            <div class="left">
+                                <img src="./images/recruitment_detail/icon-hot.png" alt="">
+                                <p>模组工艺工程师</p>
+                            </div>
+                            <img class="down" src="images/recruitment_detail/icon-down.png" />
+                        </div>
+                        <p class="li-bottom">
+                            <span>技术类</span>
+                            <span>北京</span>
+                            <span>2019-09-06</span>
+                        </p>
+                    </div>
+                    <ul class="lis_child">
+                        <li>
+                            <h3>岗位职责：</h3>
+                            <p>1.推进运输调度管理系统开发与实施；</p>
+                            <p>2.运输调度管理系统持续优化；</p>
+                            <p>3.新系统功能上线培训和问题反馈跟进；</p>
+                            <p>4.供应商系统问题反馈跟进处理。</p>
+                        </li>
+                        <li>
+                            <h3>任职职责：</h3>
+                            <p>1.本科及以上学历，计算机/数学/物流专业优先；</p>
+                            <p>2.熟悉SAP/ERP系统和EXCEL和OFFICE等办公软件应用,逻辑清晰，学习能力强；</p>
+                            <p>3.2年以上制造/物流行业IT或系统解决方案的工作经验；</p>
+                            <p>4.抗压能力强，工作细心负责。</p>
+                        </li>
+                        <li>
+                            <h3>简历投递：</h3>
+                            <p>邮箱：mglhr@mgldl.com.cn</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="wow fadeInUp">
+                    <div class="lis">
+                        <div class="li-top">
+                            <div class="left">
+                                <img src="./images/recruitment_detail/icon-hot.png" alt="">
+                                <p>模组工艺工程师</p>
+                            </div>
+                            <img class="down" src="images/recruitment_detail/icon-down.png" />
+                        </div>
+                        <p class="li-bottom">
+                            <span>技术类</span>
+                            <span>北京</span>
+                            <span>2019-09-06</span>
+                        </p>
+                    </div>
+                    <ul class="lis_child">
+                        <li>
+                            <h3>岗位职责：</h3>
+                            <p>1.推进运输调度管理系统开发与实施；</p>
+                            <p>2.运输调度管理系统持续优化；</p>
+                            <p>3.新系统功能上线培训和问题反馈跟进；</p>
+                            <p>4.供应商系统问题反馈跟进处理。</p>
+                        </li>
+                        <li>
+                            <h3>任职职责：</h3>
+                            <p>1.本科及以上学历，计算机/数学/物流专业优先；</p>
+                            <p>2.熟悉SAP/ERP系统和EXCEL和OFFICE等办公软件应用,逻辑清晰，学习能力强；</p>
+                            <p>3.2年以上制造/物流行业IT或系统解决方案的工作经验；</p>
+                            <p>4.抗压能力强，工作细心负责。</p>
+                        </li>
+                        <li>
+                            <h3>简历投递：</h3>
+                            <p>邮箱：mglhr@mgldl.com.cn</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="wow fadeInUp">
+                    <div class="lis">
+                        <div class="li-top">
+                            <div class="left">
+                                <img src="./images/recruitment_detail/icon-hot.png" alt="">
+                                <p>模组工艺工程师</p>
+                            </div>
+                            <img class="down" src="images/recruitment_detail/icon-down.png" />
+                        </div>
+                        <p class="li-bottom">
+                            <span>技术类</span>
+                            <span>北京</span>
+                            <span>2019-09-06</span>
+                        </p>
+                    </div>
+                    <ul class="lis_child">
+                        <li>
+                            <h3>岗位职责：</h3>
+                            <p>1.推进运输调度管理系统开发与实施；</p>
+                            <p>2.运输调度管理系统持续优化；</p>
+                            <p>3.新系统功能上线培训和问题反馈跟进；</p>
+                            <p>4.供应商系统问题反馈跟进处理。</p>
+                        </li>
+                        <li>
+                            <h3>任职职责：</h3>
+                            <p>1.本科及以上学历，计算机/数学/物流专业优先；</p>
+                            <p>2.熟悉SAP/ERP系统和EXCEL和OFFICE等办公软件应用,逻辑清晰，学习能力强；</p>
+                            <p>3.2年以上制造/物流行业IT或系统解决方案的工作经验；</p>
+                            <p>4.抗压能力强，工作细心负责。</p>
+                        </li>
+                        <li>
+                            <h3>简历投递：</h3>
+                            <p>邮箱：mglhr@mgldl.com.cn</p>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- 分页 -->
+        <div class="page wow fadeInUp">
+            <a href="recruitment_detail.html#">上一页</a>
+            <div class="pagation_num">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>.....</li>
+                </ul>
+            </div>
+            <a href="recruitment_detail.html#">下一页</a>
+        </div>
+        <!-- 校园宣讲会 -->
+        <div class="talk-box wow fadeInUp">
+            <p class="title">校园宣讲会</p>
+            <ul class="nav">
+                <li class="active"><span>全部</span></li>
+                <li><span>北京</span></li>
+                <li><span>天津</span></li>
+                <li><span>上海</span></li>
+                <li><span>武汉</span></li>
+            </ul>
+            <ul class="talk-list">
+                <li class="clearfix wow fadeInUp">
+                    <div class="left">
+                        <p class="title">2018年盟固利校园宣讲会在北京理工大学举行</p>
+                        <p class="date">2019-09-06</p>
+                    </div>
+                    <div class="right">
+                        <img src="./images/recruitment_detail/img-01.png" alt="">
+                    </div>
+                </li>
+                <li class="clearfix wow fadeInUp">
+                    <div class="left">
+                        <p class="title">2018年盟固利校园宣讲会在北京理工大学举行</p>
+                        <p class="date">2019-09-06</p>
+                    </div>
+                    <div class="right">
+                        <img src="./images/recruitment_detail/img-02.png" alt="">
+                    </div>
+                </li>
+                <li class="clearfix wow fadeInUp">
+                    <div class="left">
+                        <p class="title">2018年盟固利校园宣讲会在北京理工大学举行</p>
+                        <p class="date">2019-09-06</p>
+                    </div>
+                    <div class="right">
+                        <img src="./images/recruitment_detail/img-03.png" alt="">
+                    </div>
+                </li>
+            </ul>
+            <a class="more wow fadeInUp" href="javascript:;">查看更多</a>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <!-- 引入我们的flexible.js 文件 -->
+    <!-- <script src="./libs/jquery.min.js"></script> -->
+    <script src="./libs/jquery-1.8.3.min.js"></script>
+    <script src="./libs/flexible.min.js"></script>
+    <script src="./libs/swiper-5.2.0/js/swiper.min.js"></script>
+    <script src="./libs/WOW-master/wow.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/recrultment_detail.js"></script>
+</body>
+
+</html>

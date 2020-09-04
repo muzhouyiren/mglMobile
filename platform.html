@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>研发团队</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/animate.css-master/animate.css">
+    <link rel="stylesheet" href="./libs/swiper-5.2.0/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/platform.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="platform-content">
+        <div class="sec-banner" style="background-image: url('./images/platform/banner.png');">
+            <div class="des-info">
+                <h3 class="title wow fadeInRight">研发平台</h3>
+                <p class="des wow fadeInRight">领先水平的动力电池、材料、电池系统等的关键核心实验设备</p>
+            </div>
+        </div>
+        <!-- 卓越的专家团队 -->
+        <div class="section pd-0-30">
+            <h3 class="title wow fadeInUp">公司现有产能</h3>
+            <p class="des wow fadeInUp">公司目前拥有3.5GWh的软包装动力电池生产能力</p>
+            <ul class="list">
+                <li>
+                    <p class="tit">天津宝坻I期 <strong>3.0</strong> GWH</p>
+                    <div class="line">
+                        <span class="rate" data-w="80"></span>
+                    </div>
+                </li>
+                <li>
+                    <p class="tit">公司总部 研发及管理 <strong>0.5</strong> GWH</p>
+                    <div class="line">
+                        <span class="rate" data-w="50"></span>
+                    </div>
+                </li>
+                <li>
+                    <p class="tit">江苏溧阳pack工厂 <strong>0.4</strong> GWH</p>
+                    <div class="line">
+                        <span class="rate" data-w="35"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 先进的产线制造能力 -->
+        <div class="section section1 pd-0-30">
+            <h3 class="title wow fadeInUp">先进的产线制造能力</h3>
+            <p class="des wow fadeInUp">天津宝坻工厂单体电池生产线的自动化率达到88%，自动化水平在国内动力电池行业中处于领先水平。</p>
+            <div class="img wow fadeIn">
+                <img class="full" src="images/platform/img-01.png" alt="">
+            </div>
+        </div>
+        <div class="section pd-0-30">
+            <div class="title wow fadeInUp">研发场地</div>
+            <div class="tab-btns wow fadeInUp">
+                <a href="javascript:;" class="">分析仪器</a>
+                <a href="javascript:;" class="active">研发场地</a>
+            </div>
+
+            <div class="swiper wow fadeIn">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/platform/img-02.png" class="full" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/platform/img-02.png" class="full" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/platform/img-02.png" class="full" alt="">
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- 如果需要导航按钮 -->
+                    <!-- <div class="swiper-button-prev swiper-arrow"></div>
+                    <div class="swiper-button-next swiper-arrow"></div> -->
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+    <!-- 引入我们的flexible.js 文件 -->
+    <!-- <script src="./libs/jquery.min.js"></script> -->
+    <script src="./libs/jquery-1.8.3.min.js"></script>
+    <script src="./libs/flexible.min.js"></script>
+    <script src="./libs/swiper-5.2.0/js/swiper.min.js"></script>
+    <script src="./libs/scrollreveal/scrollreveal.min.js"></script>
+    <script src="./libs/WOW-master/wow.js"></script>
+    <script src="./libs/WOW-master/wow.js"></script>
+    <script src="./js/common.js"></script>
+    <script>
+
+        window.sr = ScrollReveal();
+        sr.reveal('.list li ', {
+            scale: 1,
+            distance: 0,
+            opacity: 1,
+            beforeReveal: function (e) {
+                var $ele = $(e).find('.rate');
+                var endNumStr = $ele.data('w');
+                var endNum = parseInt(endNumStr);
+                console.log(endNum)
+                $ele.css('width', endNum + '%');
+            }
+        });
+
+        sr.reveal('.list li ', {
+            scale: 1,
+            distance: '30px',
+            opacity: 0,
+            origin: 'bottom'
+        });
+
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            loop: true,
+            loopAdditionalSlides: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+        // var swiper = new Swiper('.swiper-container-team', {
+        //     loop: true,
+        //     // effect: 'fade',
+        //     fadeEffect: {
+        //         crossFade: true,
+        //     },
+        //     type: 'custom',
+        //     autoplay: {
+        //         delay: 3000,//1秒切换一次
+        //     },
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //         clickable: true,
+        //     },
+        // });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+.index-content .banner .swiper-container {
+  width: 10rem;
+  height: 8.533333rem;
+}
+.index-content .banner .swiper-container .swiper-pagination-bullet {
+  width: 0.266667rem;
+  height: 0.266667rem;
+  display: inline-block;
+  border-radius: 50%;
+  border: 0.013333rem solid #fff;
+  background: transparent;
+  opacity: 0.6;
+}
+.index-content .banner .swiper-container .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff;
+}
+.index-content .banner .banner-slide {
+  width: 10rem;
+  height: 8.533333rem;
+  padding: 2.666667rem 0.4rem 0;
+  color: #fff;
+  font-family: PingFangSC-Regular, PingFang SC;
+  background: url(../images/index/banner.png) no-repeat;
+  background-size: 10rem 8.533333rem;
+}
+.index-content .banner .banner-slide .title {
+  font-size: 0.533333rem;
+  font-weight: 600;
+  line-height: 0.533333rem;
+  margin-bottom: 0.32rem;
+}
+.index-content .banner .banner-slide .des {
+  font-size: 0.373333rem;
+  font-weight: 400;
+  color: #fff;
+  line-height: 0.64rem;
+}
+.index-content .section {
+  height: 8.533333rem;
+  padding: 1.6rem 0.4rem 0;
+  background: url(../images/index/kycx.png) no-repeat 100% 100% / cover;
+}
+.index-content .section .title {
+  height: 0.533333rem;
+  line-height: 0.533333rem;
+  font-size: 0.533333rem;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #fff;
+}
+.index-content .section .des {
+  /* width:690px; */
+  /* height:1.28rem; */
+  margin: 0.32rem 0 0.64rem;
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #fff;
+  line-height: 0.64rem;
+}
+.index-content .section .lis {
+  display: flex;
+}
+.index-content .section .lis .li {
+  width: 33.33%;
+  text-align: center;
+}
+.index-content .section .lis .li img {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0 auto 0.32rem;
+}
+.index-content .section .lis .li span {
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #fff;
+}
+.index-content .section .more {
+  display: block;
+  width: 2.346667rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 0.013333rem solid #fff;
+  font-size: 0.373333rem;
+  color: #fff;
+}
+.index-content .section .look {
+  display: block;
+  width: 3.413333rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 0.013333rem solid #fff;
+  font-size: 0.373333rem;
+  color: #fff;
+}
+.index-content .section .look:after {
+  display: inline-block;
+  margin-left: 0.306667rem;
+  content: "";
+  width: 0.453333rem;
+  height: 0.453333rem;
+  vertical-align: middle;
+  background: url(../images/index/icon-play.png) no-repeat;
+  background-size: 100% 100%;
+}
+.index-content .section2 {
+  background: url(../images/index/car-battery.png) no-repeat 100% 100% / cover;
+}
+.index-content .section3 {
+  background: url(../images/index/understand-mgl.png) no-repeat 100% 100% / cover;
+}
+.index-content .news-section {
+  background: #F5F5F5;
+  padding: 1.066667rem 0.4rem 0.533333rem;
+}
+.index-content .news-section .news-content {
+  background: #F5F5F5;
+}
+.index-content .news-section .news-content .news-cont-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.853333rem;
+}
+.index-content .news-section .news-content .news-cont-menu .news {
+  font-size: 0.64rem;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #333333;
+}
+.index-content .news-section .news-content .news-cont-menu .more {
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+}
+.index-content .news-section .news-content .li-list {
+  display: flex;
+  margin-bottom: 0.853333rem;
+}
+.index-content .news-section .news-content .li-list li {
+  flex: 1;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  text-align: center;
+  color: #999999;
+  background: #ffffff;
+}
+.index-content .news-section .news-content .li-list li.active {
+  color: #ffffff;
+  background: linear-gradient(127deg, #009fea 0%, #00e1b3 100%);
+}
+.index-content .news-section .news-content .news-list li {
+  background: #ffffff;
+  margin-bottom: 0.533333rem;
+}
+.index-content .news-section .news-content .news-list li .list-top {
+  width: 9.2rem;
+  height: 5.173333rem;
+}
+.index-content .news-section .news-content .news-list li .list-top img {
+  width: 100%;
+  height: 100%;
+}
+.index-content .news-section .news-content .news-list li .list-bottom {
+  padding: 0.533333rem 0.533333rem 0.653333rem;
+}
+.index-content .news-section .news-content .news-list li .list-bottom .news-title {
+  font-size: 0.48rem;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index-content .news-section .news-content .news-list li .list-bottom .news-info {
+  margin: 0.346667rem 0 0.52rem;
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.64rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.index-content .news-section .news-content .news-list li .list-bottom .news-date {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #dddddd;
+  padding-top: 0.653333rem;
+}
+.index-content .news-section .news-content .news-list li .list-bottom .news-date p {
+  font-size: 0.373333rem;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.373333rem;
+}
+.index-content .news-section .news-content .news-list li .list-bottom .news-date img {
+  width: 0.88rem;
+  height: 0.186667rem;
+}
